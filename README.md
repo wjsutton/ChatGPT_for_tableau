@@ -11,6 +11,12 @@ The aim of this ChatGPT GPT-4 prompting framework is to:
 
 It was built and tested using ChatGPT GPT-4 Code Interpreter (Advanced Data Analysis)
 
+### Health Warning 
+
+This prompting format is designed to improve the output received from ChatGPT, this is not guaranteed depending on your scenerio. 
+
+Please only attempt to perform data tasks if you are an experienced data analyst and can verify ChatGPT has been thorough enough to produce accurate work. 
+
 ### Quick Start
 
 Here is the pretraining prompts I used to enter a visualisation for Visual Capitalist

@@ -1,4 +1,4 @@
-# ChatGPT Prompting Frameworks for Tableau
+# ChatGPT Prompting Frameworks for Tableau 📈
 A prompting framework to focus ChatGPT on creating data analysis, data storytelling and data visualisation. 
 <br>
 
@@ -11,19 +11,19 @@ The aim of this ChatGPT GPT-4 prompting framework is to:
 
 It was built and tested using ChatGPT GPT-4 Code Interpreter (Advanced Data Analysis)
 
-### Health Warning 
+### ⚠️ Health Warning ⚠️
 
 This prompting format is designed to improve the output received from ChatGPT, this is not guaranteed depending on your scenerio. 
 
 Please only attempt to perform data tasks if you are an experienced data analyst and can verify ChatGPT has been thorough enough to produce accurate work. 
 
-### Quick Start
+### 🔌 Quick Start
 
 Here is the pretraining prompts I used to enter a visualisation for Visual Capitalist
 
 - [Visual Capitalist Full Pre-Training](visual_capitalist_pretraining.md)
 
-### A Customisable Version
+### 🔨 A Customisable Version
 
 Here is my generic prompt build
 
@@ -31,7 +31,7 @@ Here is my generic prompt build
 
 Details of these sections and how you can customise them are detailed below.
 
-### Key Sections 
+### 🔑 Key Sections 
 
 1. **The Visual Vocabulary** - this focuses ChatGPT to expand the range of charts and why it would use them
 2. **CRAFT** - this is prompting framework for Context, Role, Action, Format, Target

@@ -31,7 +31,7 @@ Here is my generic prompt build
 
 Details of these sections and how you can customise them are detailed below.
 
-### 🔑 Key Sections 
+### 🔑 Key Sections
 
 1. **The Visual Vocabulary** - this focuses ChatGPT to expand the range of charts and why it would use them
 2. **CRAFT** - this is prompting framework for Context, Role, Action, Format, Target

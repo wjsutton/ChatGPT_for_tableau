@@ -11,13 +11,27 @@ The aim of this ChatGPT GPT-4 prompting framework is to:
 
 It was built and tested using ChatGPT GPT-4 Code Interpreter (Advanced Data Analysis)
 
+### Quick Start
+
+Here is the pretraining prompts I used to enter a visualisation for Visual Capitalist
+
+- [Visual Capitalist Full Pre-Training](visual_capitalist_pretraining.md)
+
+### A Customisable Version
+
+Here is my generic prompt build
+
+- Generic Prompt Pre-Training = [Visual Vocabulary.md](visual_vocabulary.md) + [CRAFT (will require input)](craft_generic_data_visualisation_task.md)
+
+Details of these sections and how you can customise them are detailed below.
+
 ### Key Sections 
 
 1. **The Visual Vocabulary** - this focuses ChatGPT to expand the range of charts and why it would use them
 2. **CRAFT** - this is prompting framework for Context, Role, Action, Format, Target
 3. **Referencing back** - for a specific problems referencing back to The Visual Vocabulary and CRAFT sections
 
-#### 1. The Visual Vocabulary
+### 1. The Visual Vocabulary
 
 Access the text version here: [visual_vocabulary.md](visual_vocabulary.md)
 
@@ -41,7 +55,7 @@ Deviation Chart Types:
 ...
 ```
 
-#### 2. CRAFT
+### 2. CRAFT
 
 In the generic example: [craft_generic_data_visualisation_task.md](craft_generic_data_visualisation_task.md)
 
@@ -56,17 +70,28 @@ You will have to insert information specific to your task, this includes:
 
 This is not an exhaustive list but good enough to get you started.
 
-##### Context
+#### Context - What is your goal?
+
+e.g. I am a Tableau data visualisation developer and looking to submit a data visualisation for Visual Capitalist. I want to visualise the topic of Economy,
+
+#### Role - What role do you want chatGPT to take?
+
+e.g. Your role is that of an experienced data visualisation designer, able to craft impressive graphics and tell intriguing data stories.
+
+#### Action- What do you want chatGPT to do? 
+
+e.g. I will need to analyse datasets, with an emphasis on the Visual Vocabulary. I will need to craft a story from the data, ideally, we should be able to say three things about our visualisation at different granularities, i.e. an overall trend, a breakdown by countries in that trend, and the countries changing rank amongst that trend 
+
+#### Format - How do you want to receive the data back? 
+
+e.g. Please provide this information in simple text, lists and code where necessary. 
+
+#### Target - Who is the target audience, what skill level are they? 
+
+e.g. These data visualisations are for well-informed financial experts, personal investors and career climbers.  
 
 
-
-##### Role
-##### Action
-##### Format
-##### Target
-
-
-#### 3. Referencing Back 
+### 3. Referencing Back 
 
 Aftering listing the Visual Vocabulary and CRAFT sections, you can now start asking chatGPT to carry out data analysis. 
 

@@ -91,6 +91,9 @@ You will have to insert information specific to your task, this includes:
 
 This is not an exhaustive list but good enough to get you started.
 
+The CRAFT prompting method is from this YouTube video by Lawton Solutions:
+- [Write the Best ChatGPT Prompts in Open AI GPT4 - Expert Guide - Use the CRAFT Prompt Method](https://youtu.be/Gidc185wnEA?si=xX0idLfbRwNVI_Wm)
+
 #### Context - What is your goal?
 
 e.g. I am a Tableau data visualisation developer and looking to submit a data visualisation for Visual Capitalist. I want to visualise the topic of the Economy

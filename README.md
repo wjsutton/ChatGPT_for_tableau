@@ -1,8 +1,21 @@
 # ChatGPT Prompting Frameworks for Tableau 📈
 A prompting framework to focus ChatGPT on creating data analysis, data storytelling and data visualisation.
-<br>
+<be>
 
-### :a: About
+## Table of contents
+
+<!--ts-->
+   * [About](#a-about)
+   * [Health Warning](#warning-health-warning-warning)
+   * [Quick Start Guide](#electric_plug-quick-start-guide)
+   * [A Customisable Version](#hammer-a-customisable-version)
+      * [1. The Visual Vocabulary](#1-the-visual-vocabulary)
+      * [2. CRAFT](#2-craft)
+      * [3. Referencing Back](#3-referencing-back)
+   * [What's next](#whats-next)
+<!--te-->
+
+## :a: About
 
 The aim of this ChatGPT GPT-4 prompting framework is to:
 
@@ -12,27 +25,27 @@ The aim of this ChatGPT GPT-4 prompting framework is to:
 
 It was built and tested using ChatGPT GPT-4 Code Interpreter (Advanced Data Analysis)
 
-### ⚠️ Health Warning ⚠️
+## :warning: Health Warning :warning:
 
 This prompting format is designed to improve the output received from ChatGPT, this is not guaranteed depending on your scenario.
 
 Please only attempt to perform data tasks if you are an experienced data analyst and can verify that ChatGPT has been thorough enough to produce accurate work.
 
-### 🔌 Quick Start
+## :electric_plug: Quick Start Guide
 
-Here are the pretraining prompts I used to enter a visualisation for Visual Capitalist
+Here are the pretraining prompts I used to enter a visualisation for Visual Capitalist. 
+
+To get started take this file and copy 'and paste it into ChatGPT before starting your project.
 
 - [Visual Capitalist Full Pre-Training](visual_capitalist_pretraining.md)
 
-### 🔨 A Customisable Version
+## :hammer: A Customisable Version
 
-Here is my generic prompt build
+Here is my generic prompt build.
 
 - Generic Prompt Pre-Training = [Visual Vocabulary.md](visual_vocabulary.md) + [CRAFT (will require input)](craft_generic_data_visualisation_task.md)
 
 Details of these sections and how you can customise them are detailed below.
-
-### 🔑 Key Sections
 
 1. **The Visual Vocabulary** - This focuses ChatGPT to expand the range of charts and why it would use them
 2. **CRAFT** - This is a prompting framework for Context, Role, Action, Format, Target
@@ -104,6 +117,17 @@ e.g. These data visualisations are for well-informed financial experts, personal
 After listing the Visual Vocabulary and CRAFT sections, you can now start asking chatGPT to carry out data analysis.
 
 When prompting it's good practice to reference back to previous sections so chatGPT knows what you're looking for.
+
+For example, "Referring back to the ACTION and CONTEXT sections earlier please could you find 5 areas of data analysis, that would be of interest to our TARGET, please?"
+
+**Starting your analysis**
+
+For projects I have tested:
+- Starting with a Dataset
+- Starting with a Story
+- Starting with a Chart
+
+In general I would recommend starting with a dataset where possible as you're less likely to introduce bias to your project. 
 
 Here are some examples from my Visual Capitalist Project.
 
@@ -189,3 +213,14 @@ From this analysis we need to find three key stories as mentioned in the ACTION 
 
 ```
 
+### What's next? 
+
+Data visualization is more than just pretty charts; it's about telling a story that resonates. With the ChatGPT prompting framework, Tableau creators can elevate their data storytelling, making every visualization not just a chart, but a captivating narrative.
+
+
+While this framework offers a solid foundation, it's designed for adaptability. Feel free to tweak, modify, and experiment to enhance its precision and align it with your unique requirements. I'd love to hear your thoughts and experiences with this framework. 
+
+Connect and share your insights with me on Linkedin:
+- [Will Sutton](https://www.linkedin.com/in/will-sutton-14711627/)
+
+Last Updated: 2023-09-09
